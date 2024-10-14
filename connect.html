@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="rgb(77, 0, 171)">
+  <link rel="stylesheet" href="libs/swiper/swiper.min.css">
+  <!--====убрать синий цвет у ссылок в сафари ========-->
+  <meta name="format-detection" content="telephone=no">
+  <style>
+    @font-face {
+      font-family: 'Roboto';
+      src: url(./fonts/Roboto-Regular.woff2) format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      src: url(./fonts/Roboto-Bold.woff2) format("woff2");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: 'FiraSansExtraCondensed';
+      src: url(./fonts/FiraSansExtraCondensed-Regular.woff2) format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: 'FiraSansExtraCondensed';
+      src: url(./fonts/FiraSansExtraCondensed-Medium.woff2) format("woff2");
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap
+    }
+  </style>
+  <link rel="stylesheet" href="css/main.css">
+  <title>About Us</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <a class="logo" href="index.html">
+          <svg class="svg-logo">
+            <use href="./img/sprite.svg#svg-logo"></use>
+          </svg>
+        </a>
+        <button class="menu-toggle" id="menu-toggle">
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <!--===MENU ===-->
+    <div class="header-menu" id="menu">
+      <div class="container">
+        <ul class="header-menu-list">
+          <li>
+            <a href="services.html">Услуги</a>
+          </li>
+          <li>
+            <a href="portfolio.html">Портфолио</a>
+          </li>
+          <li>
+            <a href="about.html">О нас</a>
+          </li>
+        </ul>
+        <!--===LANG : выбранный активный язык имеет класс active По этому классу название языка становится невидимым ===-->
+        <ul class="langs-list">
+          <li>
+            <a href="#!">LV</a>
+          </li>
+          <li class="active">
+            <a href="#!">EN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="inner-main">
+    <section class="connect">
+      <div class="container">
+        <h1 class="h1">Let's talk!</h1>
+        <div class="w-650 txt-column">
+          <p>Мы поможем в привлечении новых клиентов и продажах через оптимизацию IT-решений. Давайте сотрудничать!</p>
+          <p>Приходи к нам в гости по адресу Рига, Brīvības iela 1</p>
+          <p>Cвяжись с нами по телефону <a class="link" href="+37122223333">+371 2222 3333</a> или пиши на <a class="link" href="mailto:info@digitalnomad.com">info@digitalnomad.com</a>. Mы предоставим Тебе профессиональную бесплатную консультацию.</p>
+          <p>Или оставь свои контакты и мы свяжемся с тобой!</p>
+        </div>
+        <div class="w-650 form-wrapper txt-right">
+          <form class="contacts-form" action="" method="method">
+            <div class="form-item">
+              <input type="text" name="" placeholder="Name">
+            </div>
+            <div class="form-item">
+              <input type="text" name="" placeholder="Email">
+            </div>
+            <div class="form-item">
+              <input type="text" name="" placeholder="Phone">
+            </div>
+            <div class="form-item">
+              <div class="dropdown">
+                <input class="dropdown__input-hidden" type="hidden" name="theme">
+                <button class="dropdown__button" type="button">
+                  <span>Theme</span>
+                </button>
+                <div class="dropdown__list">
+                  <ul>
+                    <li class="dropdown__list-item" data-value="Theme_1">Theme 1</li>
+                    <li class="dropdown__list-item" data-value="Theme_2">Theme 2</li>
+                    <li class="dropdown__list-item" data-value="Theme_3">Theme 3</li>
+                    <li class="dropdown__list-item" data-value="Theme_4">Theme 4</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="form-btn">
+              <button class="button" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer bg-accent">
+    <div class="bg-decore">
+      <svg class="svg-decore">
+        <use href="./img/sprite.svg#svg-decore"></use>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="footer-content flex-row">
+        <a class="logo" href="index.html">
+          <svg class="svg-logo">
+            <use href="./img/sprite.svg#svg-logo"></use>
+          </svg>
+        </a>
+        <p class="txt-14">© 2024 DigitalNomad. Все права защищены.</p>
+        <div class="social-block">
+          <a class="social-item" href="#!">
+            <svg class="svg-whatsapp">
+              <use href="./img/sprite.svg#svg-whatsapp"></use>
+            </svg>
+          </a>
+          <a class="social-item" href="#!">
+            <svg class="svg-tg">
+              <use href="./img/sprite.svg#svg-tg"></use>
+            </svg>
+          </a>
+          <a class="social-item" href="#!">
+            <svg class="svg-fb">
+              <use href="./img/sprite.svg#svg-fb"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--===jQuery===-->
+  <script src="./libs/jquery/jquery-3.0.0.min.js"></script>
+  <!--===jQuery lazy===-->
+  <script src="./libs/jquery.lazy.min.js"></script>
+  <!--===swiper===-->
+  <script src="./libs/swiper/swiper.js"></script>
+  <!--=== custom scripts ===-->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

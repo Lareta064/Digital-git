@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="rgb(77, 0, 171)">
+  <link rel="stylesheet" href="libs/swiper/swiper.min.css">
+  <!--====убрать синий цвет у ссылок в сафари ========-->
+  <meta name="format-detection" content="telephone=no">
+  <style>
+    @font-face {
+      font-family: 'Roboto';
+      src: url(./fonts/Roboto-Regular.woff2) format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      src: url(./fonts/Roboto-Bold.woff2) format("woff2");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: 'FiraSansExtraCondensed';
+      src: url(./fonts/FiraSansExtraCondensed-Regular.woff2) format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: 'FiraSansExtraCondensed';
+      src: url(./fonts/FiraSansExtraCondensed-Medium.woff2) format("woff2");
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap
+    }
+  </style>
+  <link rel="stylesheet" href="css/main.css">
+  <title>Services</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <a class="logo" href="index.html">
+          <svg class="svg-logo">
+            <use href="./img/sprite.svg#svg-logo"></use>
+          </svg>
+        </a>
+        <button class="menu-toggle" id="menu-toggle">
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <!--===MENU ===-->
+    <div class="header-menu" id="menu">
+      <div class="container">
+        <ul class="header-menu-list">
+          <li>
+            <a href="services.html">Услуги</a>
+          </li>
+          <li>
+            <a href="portfolio.html">Портфолио</a>
+          </li>
+          <li>
+            <a href="about.html">О нас</a>
+          </li>
+        </ul>
+        <!--===LANG : выбранный активный язык имеет класс active По этому классу название языка становится невидимым ===-->
+        <ul class="langs-list">
+          <li>
+            <a href="#!">LV</a>
+          </li>
+          <li class="active">
+            <a href="#!">EN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="inner-main">
+    <section class="service-page">
+      <div class="container">
+        <h1 class="h1">Services</h1>
+        <div class="section-row">
+          <div class="section-row__text">
+            <p>Мы осуществляем персонализированные проекты для бизнесов, воплощая и внедряя самые амбициозные задачи, находя творческие решения для каждого проекта. Наша работа на стыке создания контента, инновационных технологий, стратегии и аналитики</p>
+          </div>
+          <a class="button" href="connect.html">Заказать услугу</a>
+        </div>
+        <div class="mt-120 service-cards two-columns">
+          <a class="service-card" href="single-service.html">
+            <div class="h2">Web Development& Design</div>
+            <div class="service-card__icon">
+              <img src="./img/svg-icon1.svg" alt="">
+            </div>
+            <div class="txt-20">
+              <p>Web Development </p>
+              <p>Web Design</p>
+            </div>
+          </a>
+          <a class="service-card" href="single-service.html">
+            <div class="h2">Analytics & Optimization</div>
+            <div class="service-card__icon">
+              <img src="./img/svg-icon2.svg" alt="">
+            </div>
+            <div class="txt-20">
+              <p>Site Audit</p>
+              <p>SEO Optimization</p>
+              <p>CRO (Google Analytics, Microsoft Clarity, Google Console)</p>
+              <p>Keyword Research</p>
+            </div>
+          </a>
+          <a class="service-card" href="single-service.html">
+            <div class="h2">Advertising & Promotion</div>
+            <div class="service-card__icon">
+              <img src="./img/svg-icon1.svg" alt="">
+            </div>
+            <div class="txt-20">
+              <p>Google ADS</p>
+              <p>PBN Building</p>
+              <p>Link Building</p>
+            </div>
+          </a>
+          <a class="service-card" href="single-service.html">
+            <div class="h2">Account Management & Creation</div>
+            <div class="service-card__icon">
+              <img src="./img/svg-icon4.svg" alt="">
+            </div>
+            <div class="txt-20">
+              <p>Google Tag Management</p>
+              <p>LinkedIn Account Creation</p>
+              <p>Google Business Account Creation</p>
+              <p>Google Analytics Account Creation</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="why-us">
+      <div class="container">
+        <h2 class="h3">Почему выбирают нас</h2>
+        <ul class="grid-three-columns">
+          <li class="why-us__item">
+            <div class="h4">Опыт и экспертиза</div>
+            <p class="txt-20">Мы применяем проверенные методы SEO, которые работают и дают реальные результаты.</p>
+          </li>
+          <li class="why-us__item">
+            <div class="h4">Аналитика и отчеты</div>
+            <p class="txt-20">Мы предоставляем регулярные отчеты, чтобы вы могли отслеживать прогресс и видеть, как оптимизация влияет на позиции сайта и трафик.</p>
+          </li>
+          <li class="why-us__item">
+            <div class="h4">Долгосрочный эффект</div>
+            <p class="txt-20">Наша работа нацелена на устойчивое увеличение видимости сайта и привлечение органического трафика на долгосрочной основе.</p>
+          </li>
+        </ul>
+        <h2 class="h3">Результат</h2>
+        <p class="txt-20">SEO-оптимизация от нашего агентства позволит вашему сайту привлекать больше целевых пользователей, повышать конверсии и увеличивать доход. Чем выше позиции в поисковых системах — тем больше клиентов выберет именно вас!</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer bg-accent">
+    <div class="bg-decore">
+      <svg class="svg-decore">
+        <use href="./img/sprite.svg#svg-decore"></use>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="footer-content flex-row">
+        <a class="logo" href="index.html">
+          <svg class="svg-logo">
+            <use href="./img/sprite.svg#svg-logo"></use>
+          </svg>
+        </a>
+        <p class="txt-14">© 2024 DigitalNomad. Все права защищены.</p>
+        <div class="social-block">
+          <a class="social-item" href="#!">
+            <svg class="svg-whatsapp">
+              <use href="./img/sprite.svg#svg-whatsapp"></use>
+            </svg>
+          </a>
+          <a class="social-item" href="#!">
+            <svg class="svg-tg">
+              <use href="./img/sprite.svg#svg-tg"></use>
+            </svg>
+          </a>
+          <a class="social-item" href="#!">
+            <svg class="svg-fb">
+              <use href="./img/sprite.svg#svg-fb"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--===jQuery===-->
+  <script src="./libs/jquery/jquery-3.0.0.min.js"></script>
+  <!--===jQuery lazy===-->
+  <script src="./libs/jquery.lazy.min.js"></script>
+  <!--===swiper===-->
+  <script src="./libs/swiper/swiper.js"></script>
+  <!--=== custom scripts ===-->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
