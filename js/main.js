@@ -88,8 +88,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		// Клик по кнопке. Открыть/Закрыть select
 		dropDownBtn.addEventListener('click', function (e) {
-			dropDownList.classList.toggle('dropdown__list--visible');
-			this.classList.toggle('dropdown__button--active');
+			if(!this.classList.contains('dropdown__button--active')){
+				this.classList.add('dropdown__button--active');
+				dropDownList.classList.add('dropdown__list--visible');
+				dropDownList.style.height = dropDownList.scrollHeight + 'px';
+				
+			}else{
+				this.classList.remove('dropdown__button--active');
+				dropDownList.style.height ='0';
+				dropDownList.classList.remove('dropdown__list--visible');
+			}
+			
+			
 		});
 			
 
