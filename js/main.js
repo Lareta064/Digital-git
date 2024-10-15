@@ -46,10 +46,11 @@ document.addEventListener("DOMContentLoaded", function () {
 				sliders[index] = new Swiper(sliderElement, {
 					slidesPerView: 'auto',
 					spaceBetween: 15,
-					speed: 1500,
+					speed: 2000,
 					loop: true,
 					autoplay: {
-						delay: 1000,
+						delay: 3000,
+						pauseOnMouseEnter: true,
 						disableOnInteraction: false,
 					},
 					breakpoints: {
